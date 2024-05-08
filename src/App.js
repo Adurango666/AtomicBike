@@ -7,7 +7,9 @@ import logo from "../src/assets/logo.jpg";
 
 function App() {
   return (
+    
     <Router>
+      
       <div>
         <nav>
           <ul className="listnav">
@@ -19,6 +21,7 @@ function App() {
           <li><Link to="/about">Sobre Nosotros</Link></li>
           </ul>
         </nav>
+        <h2>AtomicBike es un equipo de carreras de rally Dakar establecido en Medellín, Colombia. Nos especializamos en competir en las duras condiciones del rally Dakar con nuestras motocicletas especialmente diseñadas.</h2>
         <Routes>
           <Route path="/Registrese" element={<Form />} />
           <Route path="/about" element={<About />} />
