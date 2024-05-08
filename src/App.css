@@ -36,3 +36,245 @@
     transform: rotate(360deg);
   }
 }
+
+/* styles.css */
+/* Estilos para la barra de navegación */
+nav {
+  background-color: #333; /* Cambia el color de fondo */
+  padding: 10px; /* Añade espacio interno */
+  display: flex; /* Muestra los elementos en línea */
+  align-items: center; /* Centra verticalmente los elementos */
+  margin-bottom: 30px;
+}
+
+.logo {
+  height: 60px; /* Establece la altura del logo */
+  margin-right: 10px; /* Añade espacio entre el logo y el enlace */
+}
+
+ul.listnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex; /* Muestra los elementos en línea */
+  justify-content: center; /* Centra los elementos horizontalmente */
+}
+
+.listnav li {
+  margin-right: 20px; /* Añade espacio entre los elementos */
+}
+
+.listnav li a {
+  color: white; /* Cambia el color del texto */
+  text-decoration: none; /* Elimina la decoración de subrayado */
+  padding: 10px 15px; /* Añade espacio interno alrededor del texto */
+  border-radius: 5px; /* Añade esquinas redondeadas */
+  transition: background-color 0.3s; /* Agrega una transición suave al color de fondo */
+}
+
+.listnav li a:hover {
+  background-color: #ff0000; /* Cambia el color de fondo al pasar el cursor */
+}
+
+
+/* Estilos para el contenedor de las tarjetas */
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.card {
+  width: calc(30% - 20px);
+  margin-bottom: 20px;
+  margin-right: 20px;
+  padding: 20px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+
+/* Estilos para las imágenes dentro de las tarjetas */
+.card img {
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 50%;
+  object-fit: cover; /* Ajusta la imagen para llenar el contenedor sin deformarla */
+  border-radius: 5px; /* Añade esquinas redondeadas para una mejor apariencia */
+}
+
+
+/* Estilos para el texto dentro de las tarjetas */
+.card-text {
+  margin-top: 10px;
+}
+
+/* Elimina el margen derecho de la última tarjeta en cada fila */
+.card:nth-child(3n) {
+  margin-right: 0;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+h1 {
+  text-align: center;
+  color: #ff0000;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #cc0000;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+h1 {
+  text-align: center;
+  color: #ff0000;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #cc0000;
+}
+
+
+/* styles.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: white;
+  color: black;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.title {
+  color: red;
+  text-align: center;
+}
+
+.content {
+  margin-top: 20px;
+}
+
+h2 {
+  color: black;
+}
+
+p {
+  color: black;
+}
+
+a {
+  color: red;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  white-space: pre-line;
+}
+
+footer {
+  background-color: #333;
+  text-align: center;
+}
+
+footer .listnav {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+  margin: 0;
+}
+
+footer .listnav li {
+  margin: 0;
+  padding: 0;
+}
+
+footer .listnav li a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px;
+}
+
+footer .listnav li a:hover {
+  background-color: #ff0000;
+  transition: background-color 0.3s ease;
+}
